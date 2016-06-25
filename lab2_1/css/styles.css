@@ -1,0 +1,36 @@
+/*Fred O'Hara 6/25/2016 */
+
+header, footer, nav, section, article, aside {
+        display: block;   
+}
+
+body { 
+	color: #000000;
+	background-color: #EEF3B7;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+	
+h2 { 
+	color: red;
+}
+
+#footer {
+    margin-top: 15px;
+    float: left;
+	clear: left; 
+}	
+
+section article:first-child h2 {
+	color: blue;
+}
+
+section article:first-child {
+	margin: 10px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
