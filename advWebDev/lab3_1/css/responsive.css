@@ -1,0 +1,26 @@
+/* Fred O'Hara 6/25/2016 */
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: pink;
+        font-size: 200%;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    body {
+        background-color: yellow;
+        font-size: 150%;
+    }
+}
+
+/* Phones */
+@media screen and (max-width: 320px) {
+    body {
+        background-color: grey;
+        font-size: 70%;
+    }
+}
+
