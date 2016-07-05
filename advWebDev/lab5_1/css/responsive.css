@@ -1,0 +1,77 @@
+/* Fred O'Hara 7/5/2016 */
+
+/* Desktops */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: pink;
+        font-size: 100%;
+    }
+
+    section article:first-child {
+        width: 50%;
+        float: left;
+        margin: 10px;
+    }
+
+
+    article {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    ul, h2, article {
+        overflow: hidden;
+    }
+
+    .breakpoints-img {
+        width: 47%;
+        float: left;
+        margin: 0px;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) and (min-width: 400px) {
+    body {
+        background-color: yellow;
+        font-size: 80%;
+    }
+
+    section article:first-child {
+        width: 100%;
+        float: left;
+        margin: 0px;
+    }
+
+    section {
+        width: 100%;
+        float: left;
+    }
+
+    article { 
+         width: 50%;
+         float: left;
+         padding: 10px;
+    }
+
+    ul, h2, article {
+        overflow: hidden;
+    }
+
+    .separate-bar {
+        display: none;
+    }
+}
+
+/* Phones */
+@media screen and (max-width: 400px) {
+    body {
+        background-color: grey;
+        font-size: 70%;
+    }
+
+    .separate-bar {
+        display: none;
+    }
+}
+

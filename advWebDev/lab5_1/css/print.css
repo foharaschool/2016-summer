@@ -1,0 +1,14 @@
+/* Fred O'Hara 7/5/2016 */
+
+*, h1, h2, section article:first-child h2 {
+    color: black;
+    background-color: white;
+} 
+
+section article:first-child {
+    border: 3px solid black;
+}
+
+a {
+    text-decoration: underline;
+}

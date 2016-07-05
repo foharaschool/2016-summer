@@ -1,0 +1,57 @@
+/* Fred O'Hara 7/5/2016 */
+
+header, footer, nav, section, article, aside {
+        display: block;   
+}
+
+body { 
+	color: #000000;
+	background-color: #EEF3B7;
+	font-family: Calibri, Arial, sans-serif;
+	margin: 0px 15px;
+}
+
+	
+h2 { 
+	color: red;
+}
+
+#footer {
+    margin-top: 15px;
+    float: left;
+	clear: left; 
+}
+
+section, article {
+	box-sizing: border-box;
+}	
+
+section article:first-child h2 {
+	color: blue;
+}
+
+section article:first-child {
+	margin: 10px;
+	border: 3px solid green;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+.separate-bar {
+	max-width: 329px;
+}
+
+.breakpoints-img {
+	margin-left: 5px;
+}
+
+.breakpoints-img img {
+	max-width: 643px;
+}
