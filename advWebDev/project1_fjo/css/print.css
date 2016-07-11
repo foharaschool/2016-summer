@@ -1,0 +1,12 @@
+* {
+    color: black !important;
+    background-color: white !important;
+}
+
+p, h2, section h1 {
+    font-size: 80%;
+}
+
+a {
+    text-decoration: underline;
+}

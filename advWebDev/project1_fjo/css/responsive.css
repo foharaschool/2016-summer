@@ -1,0 +1,160 @@
+/* Default Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucinda", sans-serif;
+    font-size: 14px;
+    
+}
+
+header {
+    background-color: #9933cc;
+    color: white;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+}
+
+.menu {
+    
+    color: #ffffff;
+
+}
+
+.menu div {
+    box-shadow: 5px 5px 2px #888888;
+    background-color: #33b5e5;
+    padding: 8px;
+    margin: 15px 0px;
+}
+
+.menu div:hover {
+    background-color: #0099cc;
+}
+
+.references {
+    background-color: #33b5e5;
+    color: white;
+    text-align: left;
+    box-shadow: 5px 5px 2px #888888;
+    padding: 10px;
+}
+
+.references a {
+    text-decoration: none;
+}
+
+.references a:hover {
+    text-decoration: underline;
+}
+
+.tips span {
+    color: #32A4AF;
+}
+
+/* responsive media queries */
+
+/* Desktops */
+@media screen and (min-width: 768px) {
+    header {
+        width: 100%;
+    }
+
+    section {
+        overflow: auto;
+        margin-bottom: 20px;
+    }
+
+   .about-project {
+        width: 65%;
+        float: left;
+        padding: 25px;
+    }
+
+    .footer {
+        float: left;
+        width: 100%;
+    }
+    
+    .menu {
+        width: 25%;
+        float: left;
+    }
+
+    .references {
+        float: left;
+        width: 22%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .tips {
+        float: left;
+        width: 50%;
+    }
+
+    .unit-topics {
+        width: 22%;
+        float: left;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) and (min-width: 601px) {
+    .about-project {
+        width: 65%;
+        float: left;
+        padding: 25px;
+    }
+
+    .footer {
+        float: left;
+        width: 100%;
+    }
+    
+    .menu {
+        width: 25%;
+        float: left;
+    }
+
+    .references {
+        float: left;
+        width: 55%;
+        margin-left: 4%;
+    }
+
+    .tips {
+        float: left;
+        width: 100%;
+    }
+
+    .unit-topics {
+        width: 37%;
+        float: left;
+    }
+
+
+
+}
+
+/* Phones */
+@media screen and (max-width: 600px) {
+
+}
