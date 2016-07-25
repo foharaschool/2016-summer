@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<!-- Author: Fred O'Hara --> 
+<!-- XML Project 2 -->
+<!-- File References: none -->
+<exchanges>
+    <exchange type="s" id="E00001">
+        <name>
+            <last-name>O'Hara</last-name>
+            <first-name>Fred</first-name>
+            <middle-init>j</middle-init>
+        </name>
+        <address>
+            <street>111 Test St</street>
+            <city>Deerfield</city>
+            <state>WI</state>
+            <zip>53531</zip>
+            <country>US</country>
+        </address>
+        <telephone>(608) 111-4564</telephone>
+        <email>fohara@madisoncollege.edu</email>
+        <application-date>
+            <month>11</month>
+            <day>14</day>
+            <year>2015</year>
+        </application-date>
+        <available-date>
+            <month>01</month>
+            <day>10</day>
+            <year>2016</year>
+        </available-date>
+        <birth-country>US</birth-country>
+        <date-of-birth>
+            <month>11</month>
+            <day>01</day>
+            <year>1985</year>
+        </date-of-birth>
+        <age>30</age>
+        <gender>male</gender>
+        <school-name>Madison College</school-name>
+        <school-address>
+            <street>1501 Anderson St</street>
+            <city>Madison</city>
+            <state>WI</state>
+            <zip>55718</zip>
+            <country>US</country>
+        </school-address>
+        <year-in-school>Junior</year-in-school>
+        <mother-name>
+            <last-name>Smith</last-name>
+            <first-name>Jane</first-name>
+            <middle-init>j</middle-init>
+        </mother-name>
+        <father-name>
+            <last-name>Smith</last-name>
+            <first-name>Joe</first-name>
+            <middle-init>j</middle-init>
+        </father-name>
+        <emerg-tel>(608) 789-1515</emerg-tel>
+        <fee-paid currency="USD">510.48</fee-paid>
+        <essay><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ab, sed aliquam animi quasi in mollitia non nostrum similique. Harum minus nostrum cupiditate repellendus sit illo, ea fuga in itaque.</div>
+        <div>Vero repellat, porro nihil voluptas alias voluptatum architecto sunt, ad adipisci eius debitis perferendis possimus autem repudiandae minima quibusdam voluptate ab exercitationem provident iste itaque incidunt aspernatur pariatur temporibus. Et! ]]></essay>
+        <languages-spoken prof="1">English</languages-spoken>
+        <languages-spoken prof="3">Russian</languages-spoken>
+        <languages-spoken prof="5">Spanish</languages-spoken>
+        <country-choices pref="1">US</country-choices>
+        <country-choices pref="2">UK</country-choices>
+        <country-choices pref="3">MX</country-choices>
+        <country-choices pref="4">RU</country-choices>
+        <country-choices pref="5">BR</country-choices>
+    </exchange>
+    <exchange type="t" id="E00002">
+        <name>
+            <last-name>Plinth</last-name>
+            <first-name>Margaret</first-name>
+        </name>
+        <address>
+            <street>123 Baker St</street>
+            <apt>23</apt>
+            <city>Arkhanglesk</city>
+            <state>Arkhanglesk Oblast</state>
+            <zip>008-78-1265</zip>
+            <country>RU</country>
+        </address>
+        <telephone>(111) 456-6543</telephone>
+        <email>mplinth@test.com</email>
+        <application-date>
+            <month>01</month>
+            <day>01</day>
+            <year>2010</year>
+        </application-date>
+        <available-date>
+            <month>05</month>
+            <day>05</day>
+            <year>2013</year>
+        </available-date>
+        <birth-country>RU</birth-country>
+        <gender>Female</gender>
+        <school-name>Arkhanglesk University</school-name>
+        <school-address>
+            <street>0101 Main St</street>
+            <city>Arkhanglesk</city>
+            <state>Arkhanglesk Oblast</state>
+            <zip>008-78-1265</zip>
+            <country>RU</country>
+        </school-address>
+        <emerg-tel>(151) 444-8585</emerg-tel>
+        <fee-paid currency="RUB">2300</fee-paid>
+        <essay><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ab, sed aliquam animi quasi in mollitia non nostrum similique. Harum minus nostrum cupiditate repellendus sit illo, ea fuga in itaque.</div>
+        <div>Vero repellat, porro nihil voluptas alias voluptatum architecto sunt, ad adipisci eius debitis perferendis possimus autem repudiandae minima quibusdam voluptate ab exercitationem provident iste itaque incidunt aspernatur pariatur temporibus. Et! ]]></essay>
+        <languages-spoken prof="1">Russian</languages-spoken>
+        <languages-spoken prof="2">English</languages-spoken>
+        <country-choices pref="1">US</country-choices>
+        <country-choices pref="2">UK</country-choices>
+        <country-choices pref="3">MX</country-choices>
+        <country-choices pref="5">RU</country-choices>
+        <country-choices pref="4">BR</country-choices>
+    </exchange>
+    <exchange type="s" id="E00003">
+        <name>
+            <last-name>Do'Urden-Franklin-templeton-snuffleupugus III</last-name>
+            <first-name>Tony</first-name>
+        </name>
+        <address>
+            <street>879 Pear St</street>
+            <city>Atlanta</city>
+            <state>GA</state>
+            <zip>23451</zip>
+            <country>US</country>
+        </address>
+        <telephone>(456) 123-6543</telephone>
+        <email>dfts@gmail.com</email>
+        <application-date>
+            <month>04</month>
+            <day>15</day>
+            <year>2011</year>
+        </application-date>
+        <available-date>
+            <month>05</month>
+            <day>15</day>
+            <year>2012</year>
+        </available-date>
+        <birth-country>BR</birth-country>
+        <date-of-birth>
+            <month>04</month>
+            <day>14</day>
+            <year>1990</year>
+        </date-of-birth>
+        <age>26</age>
+        <gender>Male</gender>
+        <school-name>Hogwarts School of Witchcraft and Wizardry</school-name>
+        <school-address>
+            <street>123</street>
+            <apt>Downing Ln</apt>
+            <city>Downton-on-Abbey</city>
+            <state>Polk</state>
+            <zip>078041</zip>
+            <country>UK</country>
+        </school-address>
+        <year-in-school>Freshman</year-in-school>
+        <mother-name>
+            <last-name>Do'Urden</last-name>
+            <first-name>Malice</first-name>
+            <middle-init>J S</middle-init>
+        </mother-name>
+        <father-name>
+            <last-name>Franklin-templeton-snuffleupugus Jr.</last-name>
+            <first-name>Quigly</first-name>
+        </father-name>
+        <emerg-tel>(999) 666-1111</emerg-tel>
+        <fee-paid currency="USD">2450</fee-paid>
+        <essay><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ab, sed aliquam animi quasi in mollitia non nostrum similique. Harum minus nostrum cupiditate repellendus sit illo, ea fuga in itaque.</div>
+        <div>Vero repellat, porro nihil voluptas alias voluptatum architecto sunt, ad adipisci eius debitis perferendis possimus autem repudiandae minima quibusdam voluptate ab exercitationem provident iste itaque incidunt aspernatur pariatur temporibus. Et! ]]></essay>
+        <languages-spoken prof="1">English</languages-spoken>
+        <languages-spoken prof="3">Swahili</languages-spoken>
+        <languages-spoken prof="4">Portugeuse</languages-spoken>
+        <country-choices pref="1">US</country-choices>
+        <country-choices pref="5">UK</country-choices>
+        <country-choices pref="3">MX</country-choices>
+        <country-choices pref="4">RU</country-choices>
+        <country-choices pref="2">BR</country-choices>
+    </exchange>
+    <exchange type="s" id="E00004">
+        <name>
+            <last-name>Clark</last-name>
+            <first-name>Christine</first-name>
+            <middle-init>c</middle-init>
+        </name>
+        <address>
+            <street>45 Belltower Rd</street>
+            <apt>888</apt>
+            <city>Boston</city>
+            <state>MA</state>
+            <zip>45541</zip>
+            <country>US</country>
+        </address>
+        <telephone>(417) 789-6644</telephone>
+        <email>cc@test.com</email>
+        <application-date>
+            <month>04</month>
+            <day>15</day>
+            <year>2016</year>
+        </application-date>
+        <available-date>
+            <month>04</month>
+            <day>15</day>
+            <year>2016</year>
+        </available-date>
+        <birth-country>US</birth-country>
+        <date-of-birth>
+            <month>08</month>
+            <day>08</day>
+            <year>1988</year>
+        </date-of-birth>
+        <age>27</age>
+        <gender>Female</gender>
+        <school-name></school-name>
+        <school-address>
+            <street>123 Belltower Rd</street>
+            <city>Boston</city>
+            <state>MA</state>
+            <zip>01414</zip>
+            <country>US</country>
+        </school-address>
+        <year-in-school>Senior</year-in-school>
+        <mother-name>
+            <last-name>Applegate</last-name>
+            <first-name>Constance</first-name>
+            <middle-init>c</middle-init>
+        </mother-name>
+        <father-name>
+            <last-name>Applegate</last-name>
+            <first-name>Bilbo</first-name>
+        </father-name>
+        <emerg-tel>(454) 212-8213</emerg-tel>
+        <fee-paid currency="TZS">80818</fee-paid>
+        <essay><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ab, sed aliquam animi quasi in mollitia non nostrum similique. Harum minus nostrum cupiditate repellendus sit illo, ea fuga in itaque.</div>
+        <div>Vero repellat, porro nihil voluptas alias voluptatum architecto sunt, ad adipisci eius debitis perferendis possimus autem repudiandae minima quibusdam voluptate ab exercitationem provident iste itaque incidunt aspernatur pariatur temporibus. Et! ]]></essay>
+        <languages-spoken prof="5">Spanish</languages-spoken>
+        <languages-spoken prof="5">English</languages-spoken>
+        <languages-spoken prof="5">French</languages-spoken>
+        <country-choices pref="5">US</country-choices>
+        <country-choices pref="4">FR</country-choices>
+        <country-choices pref="3">MX</country-choices>
+        <country-choices pref="1">RU</country-choices>
+        <country-choices pref="2">BR</country-choices>
+    </exchange>
+</exchanges>

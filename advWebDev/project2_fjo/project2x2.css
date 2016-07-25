@@ -1,0 +1,127 @@
+exchanges {
+    width: 100%;
+    color: white;
+}
+
+exchange, exchange * {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    display: block;
+}
+
+exchange {
+    vertical-align: text-top;
+    border: 2px outset navy;
+    width: 250px;
+    float: left;
+    margin-bottom: 1ex;
+    margin-right: 2em;
+}
+
+last-name, first-name, middle-init {
+    display: inline;
+    
+}
+
+name {
+    border-bottom: 2px outset navy;
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+address {
+    background-color: lightblue;
+}
+
+address street {
+    padding-top: 0.5em;
+}
+
+city, state, zip {
+    display: inline;
+}
+
+telephone {
+    padding-top: 1ex;
+}
+
+email {
+    padding: 1ex 0;
+}
+
+application-date, date-of-birth, available-date {
+    font-style: italic;
+}
+
+month, day, year {
+    display: inline;
+}
+
+school-name {
+    color: #2DC100;
+    padding-top: 1ex;
+    border-top: 2px dotted #2DC100;
+}
+
+mother-name {
+    border-top: 2px solid pink;
+    padding-top: 1ex;
+}
+
+mother-name * {
+    color: pink;
+}
+
+father-name {
+    border-top: 2px solid blue;
+    padding-top: 1ex;
+}
+
+school-address * {
+    color: #2DC100;
+}
+
+school-address {
+    padding-top: 0.5ex;
+}
+
+emerg-tel {
+    color: red;
+    padding: 1ex 0;
+}
+
+languages-spoken {
+    color: #006DD3;
+}
+
+country-choices {
+    color: #AA0300; 
+}
+
+country-choices[pref="1"] {
+    color: #77AA00;
+}
+
+fee-paid {
+    color: black;
+}
+
+fee-paid[currency="USD"] {
+    color: green;
+}
+
+fee-paid[currency="EUR"] {
+    color: red;
+}
+
+fee-paid[currency="MXN"] {
+    color: lightblue;
+}
+
+@media print {
+    exchange * {
+        font-family: 'Times New Roman', Times, serif !important;
+        color: black !important;
+    }
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!-- Fred O'Hara --> 
+<!-- Lab 9.1 --> 
+<items>
+    <item item-number="I11501">
+        <description>Ark of the Covenenant</description>
+        <country>Made in Sinai Desert</country>
+        <sellingPrice sale-item="n">518184818</sellingPrice>
+        <cost>0</cost>
+        <quantityOnHand>1</quantityOnHand>
+        <backorderedAmount>0</backorderedAmount>
+        <dateLastReceived>
+            <month>06</month>
+            <day>21</day>
+            <year>1938</year>
+        </dateLastReceived>
+        <quantitySoldYTD>0</quantitySoldYTD>
+        <warehouseSection>14</warehouseSection>
+        <wareshouseShelf>1</wareshouseShelf>
+        <remarks><![CDATA[This item is sold "as is" with a limited 90-day warranty. It is part of our "Scratch & Dent" sale.]]></remarks>
+        <supplier>
+            <number>515151</number>
+            <shipmentLeadTime unit="days">5000</shipmentLeadTime>
+            <cost>0</cost>
+        </supplier>
+        <supplier>
+            <number>154143</number>
+            <shipmentLeadTime unit="days">20000</shipmentLeadTime>
+            <cost>15000000000</cost>
+        </supplier>
+    </item>
+    <item item-number="I0514">
+        <description>Candied Yams</description>
+        <country>Made in Germany</country>
+        <sellingPrice  sale-item="y">0.79</sellingPrice>
+        <cost>0.05</cost>
+        <quantityOnHand>55000</quantityOnHand>
+        <backorderedAmount date-ordered="07152016">200</backorderedAmount>
+        <dateLastReceived>
+            <month>03</month>
+            <day>01</day>
+            <year>2014</year>
+        </dateLastReceived>
+        <quantitySoldYTD>4500</quantitySoldYTD>
+        <warehouseSection>25</warehouseSection>
+        <wareshouseShelf>04</wareshouseShelf>
+        <remarks><![CDATA[Customers can view product information about this item at: http://www.trellisstructures.com?19234]]></remarks>
+        <supplier>
+            <number>51034</number>
+            <shipmentLeadTime unit="weeks">3000</shipmentLeadTime>
+            <cost>0.07</cost>
+        </supplier>
+        <supplier>
+            <number>508010</number>
+            <shipmentLeadTime unit="weeks">6000</shipmentLeadTime>
+            <cost>0.04</cost>
+        </supplier>
+    </item>
+        <item item-number="I45618">
+        <description>Great Balls</description>
+        <country>Made in Japan</country>
+        <sellingPrice  sale-item="y">1.99</sellingPrice>
+        <cost>0.02</cost>
+        <quantityOnHand>20</quantityOnHand>
+        <backorderedAmount date-ordered="07112016">15000</backorderedAmount>
+        <dateLastReceived>
+            <month>07</month>
+            <day>01</day>
+            <year>2016</year>
+        </dateLastReceived>
+        <quantitySoldYTD>45000</quantitySoldYTD>
+        <warehouseSection>10</warehouseSection>
+        <wareshouseShelf>01</wareshouseShelf>
+        <remarks><![CDATA[Gotta catch 'em all!]]></remarks>
+        <supplier>
+            <number>51000</number>
+            <shipmentLeadTime unit="days">20</shipmentLeadTime>
+            <cost>0.05</cost>
+        </supplier>
+        <supplier>
+            <number>508010</number>
+            <shipmentLeadTime unit="days">30</shipmentLeadTime>
+            <cost>0.04</cost>
+        </supplier>
+    </item>
+        <item item-number="I665544">
+        <description>Three-masted Schooner</description>
+        <country>Made in Germany</country>
+        <sellingPrice  sale-item="y">1450000</sellingPrice>
+        <cost>990000</cost>
+        <quantityOnHand>3</quantityOnHand>
+        <backorderedAmount date-ordered="05152016">2</backorderedAmount>
+        <dateLastReceived>
+            <month>05</month>
+            <day>15</day>
+            <year>2015</year>
+        </dateLastReceived>
+        <quantitySoldYTD>2</quantitySoldYTD>
+        <warehouseSection>50</warehouseSection>
+        <wareshouseShelf>01</wareshouseShelf>
+        <remarks><![CDATA[Pre-orders are filled within 2 years]]></remarks>
+        <supplier>
+            <number>41034</number>
+            <shipmentLeadTime unit="weeks">89</shipmentLeadTime>
+            <cost>915000</cost>
+        </supplier>
+        <supplier>
+            <number>21051</number>
+            <shipmentLeadTime unit="weeks">80</shipmentLeadTime>
+            <cost>910000</cost>
+        </supplier>
+    </item>
+</items>

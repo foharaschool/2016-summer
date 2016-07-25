@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!-- Fred O'Hara --> 
+<!-- Lab 8.1 --> 
+<items>
+    <item>
+        <itemNumber>11501</itemNumber>
+        <description>Ark of the Covenenant</description>
+        <sellingPrice>518184818</sellingPrice>
+        <cost>0</cost>
+        <quantityOnHand>1</quantityOnHand>
+        <backorderedAmount>0</backorderedAmount>
+        <dateLastReceived>
+            <month>06</month>
+            <day>21</day>
+            <year>1938</year>
+        </dateLastReceived>
+        <quantitySoldYTD>0</quantitySoldYTD>
+        <warehouseSection>14</warehouseSection>
+        <wareshouseShelf>1</wareshouseShelf>
+        <supplier>
+            <number>515151</number>
+            <shipmentLeadTime>5000</shipmentLeadTime>
+            <cost>0</cost>
+        </supplier>
+        <supplier>
+            <number>154143</number>
+            <shipmentLeadTime>20000</shipmentLeadTime>
+            <cost>15000000000</cost>
+        </supplier>
+    </item>
+    <item>
+        <itemNumber>0514</itemNumber>
+        <description>Candied Yams</description>
+        <sellingPrice>0.79</sellingPrice>
+        <cost>0.05</cost>
+        <quantityOnHand>55000</quantityOnHand>
+        <backorderedAmount>200</backorderedAmount>
+        <dateLastReceived>
+            <month>03</month>
+            <day>01</day>
+            <year>2014</year>
+        </dateLastReceived>
+        <quantitySoldYTD>4500</quantitySoldYTD>
+        <warehouseSection>25</warehouseSection>
+        <wareshouseShelf>04</wareshouseShelf>
+        <supplier>
+            <number>51034</number>
+            <shipmentLeadTime>3000</shipmentLeadTime>
+            <cost>0.07</cost>
+        </supplier>
+        <supplier>
+            <number>508010</number>
+            <shipmentLeadTime>6000</shipmentLeadTime>
+            <cost>0.04</cost>
+        </supplier>
+    </item>
+</items>
