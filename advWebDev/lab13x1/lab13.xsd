@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="books">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="book" type="pType" minoccurs="3" maxoccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:complexType name="pType">
+    <xs:group ref="childElements" />
+    <xs:attributeGroup ref="bookAtt" />
+</xs:complexType>
+
+<xs:group name="childElements">
+    <xs:sequence>
+        <xs:element name="isbn" type="xs:string" />
+        <xs:element name="title" type="xs:string" />
+        <xs:element name="edition" type="xs:integer" />
+        <xs:element name="author">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="first" type="xs:string" />
+                    <xs:element name="middle" type="xs:string" />
+                    <xs:element name="last" type="xs:string" />
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="publishedDate">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="month" type="xs:integer" />
+                    <xs:element name="day" type="xs:integer" />
+                    <xs:element name="year" type="xs:integer" />
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="type" type="xs:string" />
+        <xs:element name="price" type="xs:decimal" />
+    </xs:sequence>
+</xs:group>
+
+</xs:schema>
