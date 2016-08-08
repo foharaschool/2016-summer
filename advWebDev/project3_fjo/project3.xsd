@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Container and root element -->
+    <xs:element name="exchanges">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="exchange" minOccurs="4" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="exchange">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name" />
+                <xs:element ref="address" />
+                <xs:element ref="telephone" />
+                <xs:element ref="emailAddress" />
+                <xs:element ref="applicationDate" />
+                <xs:element ref="availableDate" />
+                <xs:element ref="birthCountry" />
+                <xs:element ref="dateOfBirth" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="age" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="gender" />
+                <xs:element ref="schoolName" />
+                <xs:element ref="schoolAddress" />
+                <xs:element ref="yearInSchool" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="motherName" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="fatherName" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="emergencyTelephone" />
+                <xs:element ref="feePaid" />
+                <xs:element ref="essay" />
+                <xs:element ref="spokenLanguages" />
+                <xs:element ref="countryChoices" />
+            </xs:sequence>
+            <xs:attribute ref="exchangeType" use="required" />
+            <xs:attribute ref="id" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Simple Elements and Attributes -->
+    <xs:element name="telephone">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="\([0-9][0-9][0-9]\)\s[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="emailAddress" type="xs:string" />
+    <xs:element name="birthCountry" type="xs:string" />
+    <xs:element name="age">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="13" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="gender">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="m|f" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="schoolName">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z\s']+" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="yearInSchool" type="xs:string" />
+    <xs:element name="emergencyTelephone" type="xs:string" />
+    <xs:element name="essay">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="((.|\s){1,1000}){1}" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="lastName">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z\-]+" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="firstName">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z\-]+" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="middleInitial">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z]*" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="month" type="xs:string" />
+    <xs:element name="day" type="xs:string" />
+    <xs:element name="year" type="xs:string" />
+    <xs:element name="street" type="xs:string" />
+    <xs:element name="apartment" type="xs:string" />
+    <xs:element name="city" type="xs:string" />
+    <xs:element name="state">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z]+" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="province">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z]+" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="zipCode" type="xs:string" />
+    <xs:element name="postalCode" type="xs:string" />
+    <xs:element name="country">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z\s]+" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <!-- Attributes -->
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="exchangeType">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="S|T" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="currency" type="xs:string" />
+    <xs:attribute name="fluency">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:pattern value="[1-4]" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="rank">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:pattern value="[1-5]" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <!-- Complex Elements> -->
+    <xs:element name="name">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="lastName" />
+                <xs:element ref="firstName" />
+                <xs:element ref="middleInitial" minOccurs="0" maxOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="motherName">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="lastName" />
+                <xs:element ref="firstName" />
+                <xs:element ref="middleInitial" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="fatherName">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="lastName" />
+                <xs:element ref="firstName" />
+                <xs:element ref="middleInitial" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="address">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="street" />
+                <xs:element ref="apartment" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="city" />
+                <xs:choice>
+                    <xs:element ref="state" />
+                    <xs:element ref="province" />
+                </xs:choice>
+                <xs:choice>
+                    <xs:element ref="zipCode" />
+                    <xs:element ref="postalCode" />
+                </xs:choice>
+                <xs:element ref="country" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="schoolAddress">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="street" />
+                <xs:element ref="apartment" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="city" />
+                <xs:choice>
+                    <xs:element ref="state" />
+                    <xs:element ref="province" />
+                </xs:choice>
+                <xs:choice>
+                    <xs:element ref="zipCode" />
+                    <xs:element ref="postalCode" />
+                </xs:choice>
+                <xs:element ref="country" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="applicationDate">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="month" />
+                <xs:element ref="day" />
+                <xs:element ref="year" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="availableDate">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="month" />
+                <xs:element ref="day" />
+                <xs:element ref="year" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="dateOfBirth">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="month" />
+                <xs:element ref="day" />
+                <xs:element ref="year" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="spokenLanguages">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="language" minOccurs="2" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="countryChoices">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="countryChoice" minOccurs="5" maxOccurs="5" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="feePaid">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:decimal">
+                    <xs:attribute ref="currency" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="language">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="fluency" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="countryChoice">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="rank" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
